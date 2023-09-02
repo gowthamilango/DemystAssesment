@@ -1,0 +1,38 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.input-field {
+    width: 200px;
+    height: 15px;
+    border: 1px solid #b38d64;
+    padding: 4px;
+    
+  }
+
+  h2,h4 {
+    text-align: left;
+  }
+  
+  input {
+    text-align: center;
+  }
+
+  body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-font-smoothing: antialiased;
+    background-image: linear-gradient(135deg,#fd6585 10%,#0d25b9 100%);
+    min-height: 100vh;
+
+  }
+  
+  
